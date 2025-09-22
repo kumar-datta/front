@@ -23,5 +23,28 @@ last question
 =-----------
 create docker_compose.yml
 
+paste this:
+----------
+
+
+version: "3.9"
+
+services:
+  web:
+    image: bhavagna2005/
+    ports:
+      - "8000:8080"
+    depends_on:
+      - mysql
+
+  mysql:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: university
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    ports:
+      - "3306:3306"
 
 
