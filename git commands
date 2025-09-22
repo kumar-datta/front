@@ -1,0 +1,49 @@
+
+User@DESKTOP-GGREQK6 MINGW64 ~/git/MetroRepo (master)
+$ git config --global user.name "kumardatta"
+
+User@DESKTOP-GGREQK6 MINGW64 ~/git/MetroRepo (master)
+$ git config --global user.email "kumardatha9@gmail.com"
+
+User@DESKTOP-GGREQK6 MINGW64 ~/git/MetroRepo (master)
+$ git config user.name "kumardatta"
+
+User@DESKTOP-GGREQK6 MINGW64 ~/git/MetroRepo (master)
+$ git config  user.email "kumardatha9@gmail.com"                                                                                             
+
+User@DESKTOP-GGREQK6 MINGW64 ~/git/MetroRepo (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/User/git/MetroRepo/.git/
+
+User@DESKTOP-GGREQK6 MINGW64 ~/git/MetroRepo (master)
+$ git add .
+warning: in the working copy of 'target/m2e-wtp/web-resources/.gitignore', LF will be replaced by CRLF the next time Git touches it
+
+User@DESKTOP-GGREQK6 MINGW64 ~/git/MetroRepo (master)
+$ git commit -m "updatemade"
+[master 24cc0e5] updatemade
+ 4 files changed, 24 insertions(+), 1 deletion(-)
+ create mode 100644 docker-compose.yml
+ create mode 100644 target/m2e-wtp/web-resources/.gitignore
+
+User@DESKTOP-GGREQK6 MINGW64 ~/git/MetroRepo (master)
+$ git remote set-url origin "https://github.com/kumar-datta/exam.git"
+
+User@DESKTOP-GGREQK6 MINGW64 ~/git/MetroRepo (master)
+$ git branch -M master
+
+User@DESKTOP-GGREQK6 MINGW64 ~/git/MetroRepo (master)
+$ git push -u origin master
+Enumerating objects: 74, done.
+Counting objects: 100% (74/74), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (48/48), done.
+Writing objects: 100% (74/74), 733.71 KiB | 31.90 MiB/s, done.
+Total 74 (delta 14), reused 56 (delta 8), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (14/14), done.
+To https://github.com/kumar-datta/exam.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+User@DESKTOP-GGREQK6 MINGW64 ~/git/MetroRepo (master)
+$
