@@ -17,3 +17,11 @@ docker push bhavagna2005/mavenapp
 #docker build -t username/imagename .
 
 
+
+
+last question
+=-----------
+create docker_compose.yml
+
+
+
