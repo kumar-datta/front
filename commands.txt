@@ -1,0 +1,7 @@
+git init
+git add .
+git commit -m "Messaege"
+git remote add origin "link"//already exist
+git remote set-url origin "link"//already exist
+git branch -M main
+git push -u origin main
