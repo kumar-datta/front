@@ -21,7 +21,7 @@ docker push bhavagna2005/mavenapp
 
 last question
 =-----------
-create docker_compose.yml
+create docker-compose.yml
 
 paste this:
 ----------
@@ -31,7 +31,7 @@ version: "3.9"
 
 services:
   web:
-    image: bhavagna2005/
+    image: bhavagna2005/---.edit(mavenapp:latest)
     ports:
       - "8000:8080"
     depends_on:
@@ -48,3 +48,12 @@ services:
       - "3306:3306"
 
 
+open traminal
+------------
+ocloser-cm
+open traminal
+----------
+docker-compose up
+docker-compose up --build
+
+change ports if getting errors ;like 3000
